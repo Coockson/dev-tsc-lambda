@@ -1,8 +1,9 @@
-# Welcome to your CDK TypeScript project!
+# TypeScript Project Template
 
-This is a blank project for TypeScript development with CDK.
+This project is created to represent my preferred project structure for TypeScript for AWS CDK.
+A "hello world" lambda is created as an example.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
 
 ## Useful commands
 
