@@ -8,7 +8,7 @@ export class DevTscLambdaStack extends cdk.Stack {
     // This is a dummy Lambda just to test TypeScript
     const hello = new lambda.Function(this, 'HelloHandler', {
       runtime: lambda.Runtime.NODEJS_10_X,    // execution environment
-      code: lambda.Code.fromAsset('lambda'),  // code loaded from "lambda" directory
+      code: lambda.Code.fromAsset('./dist/src/lambda'),  // code loaded from "lambda" directory
       handler: 'hello.handler'                // file is "hello", function is "handler"
     });
     
